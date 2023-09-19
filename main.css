@@ -1,0 +1,74 @@
+body {
+  margin:0;
+  font-family: 'Work Sans', cursive;
+  background-color: #061c7f;
+  background-image:url(background.jpg) ;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container a {
+  color: #061c7f;
+}
+
+.nav-active {
+  text-decoration: underline;
+}
+
+#my-navbar {
+  background-color: white;
+}
+
+.color-white {
+  color: white;
+}
+
+#footer_container {
+  background: gray;
+  color: white;
+}
+
+#footer_container a {
+  color: white;  
+}
+
+footer a {
+  color: white;
+}
+
+.header {
+  font-weight: bold;
+}
+
+.card-title,  
+.card-body p {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.card-title:hover,
+.card-body p:hover {
+  text-decoration: none !important;
+}
+
+.banner h2,
+.banner h1,
+.banner p,
+.banner .intro-text {
+  color: #fff !important;
+}
+
+.category-alone::before {
+  transform: scale(0);
+}
+
+.category-alone:hover::before {
+  transform: scale(1);
+}
+
+.btn-about {
+  background-color: #061c7f !important;
+  color: #fff!important;
+  border-radius: 2rem!important;
+}
